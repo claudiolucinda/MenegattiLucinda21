@@ -11,7 +11,7 @@ Objects in the paper to be replicated:
 
 
 **Table 1**
-
+Codes at `codes/descriptive-statistic-bidders.R` and `codes/descriptive-statistic-prices.R` which generates tables at `results/descriptive-statistic-bidders.csv` and `results/descriptive-statistic-prices.csv`
 
 **Figure 2**
 
@@ -20,6 +20,7 @@ Objects in the paper to be replicated:
 
 
 **Figure 4**
+Codes at `codes/plot-trends-bidders.R` and `codes/plot-trends-prices.R` which generates tables at `results/plot-trends-price.png` and `results/plot-trends-bidders.png`.
 
 
 **Table 2**
