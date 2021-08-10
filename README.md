@@ -8,15 +8,17 @@ Replication Files for Menegatti and Lucinda (2021) paper. The folder structure i
 Objects in the paper to be replicated:
 
 **Figure 1**
+Codes at `codes/plot-coffee-futures-and-arabica-prices-over-time.R` which generates figure at `results/plot-coffee-futures-and-arabica-prices-over-time.png`
 
 
 **Table 1**
 Codes at `codes/descriptive-statistic-bidders.R` and `codes/descriptive-statistic-prices.R` which generates tables at `results/descriptive-statistic-bidders.csv` and `results/descriptive-statistic-prices.csv`
 
 **Figure 2**
-
+Codes at `codes/plot-loess-bidders.R` (for bidders) and `codes/plot-loess-price.R` (for prices) generating figures at `results/plot-loess-bidders.png` and `results/plot-loess-price.png`
 
 **Figure 3**
+Codes at `codes/violinplots.R` which generates figures at `results/violinplot-supplied-quantity-kg-faceted-by-rules.png`
 
 
 **Figure 4**
