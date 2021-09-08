@@ -69,6 +69,12 @@ df_stacked %>%
     2) Pregões utilizados nas especificações principais, realizados entre mar./2011 e dez./2015.'
   )
 
+Contr = df_stacked$kg_fornecidos[df_stacked$Grupo=="Controle"]
+Treat = df_stacked$kg_fornecidos[df_stacked$Grupo=="Tratamento"]
+TreatSP= df_stacked$kg_fornecidos[df_stacked$Grupo=="Tratamento - SP"]
+
+ks.test(Contr, Treat)
+
 # ggsave('results/violinplot-quantity.png', width = 6, height = 6)
 
 # Valor total -----------------------------------------------------------------
@@ -104,6 +110,13 @@ df_stacked %>%
     1) Os valores no gráfico representam as medianas de cada grupo;
     2) Pregões utilizados nas especificações principais, realizados entre mar./2011 e dez./2015.'
   )
+
+Contr = df_stacked$win_bid_kg[df_stacked$Grupo=="Controle"]
+Treat = df_stacked$win_bid_kg[df_stacked$Grupo=="Tratamento"]
+TreatSP= df_stacked$win_bid_kg[df_stacked$Grupo=="Tratamento - SP"]
+
+ks.test(Contr, Treat)
+
 
 # ggsave('plots/violinplot-total-auction-value.png', width = 6, height = 6)
 

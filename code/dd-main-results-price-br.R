@@ -28,7 +28,7 @@ df_models_brasil <- tibble(
     .f = ~ felm(as.formula(.x), data = dd_brasil)
     ))
 
-# Salvando tabelas de resultados (erros-padrao simples)
+
 stargazer(df_models_brasil$felm_models, type = 'text',
           out = 'results/dd-main-results/price/dd-price-br.txt')
 
